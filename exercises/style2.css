@@ -1,0 +1,65 @@
+a {
+  font-size: 20px;
+  margin: 0px 5px 0px 5px;
+}
+
+.back-button,
+.next-button {
+  background-color: lightgray;
+  padding: 10px 6px 10px 6px;
+  font-size: 16px;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: gray;
+  cursor: pointer;
+  }
+
+.back-button {
+  margin-right: 5px;
+}
+
+.next-button {
+  margin-left: 5px;
+}
+
+.stretch-button,
+.shadow-button,
+.one-button,
+.two-button,
+.three-button {
+  background-color: green;
+  color: white;
+  font-size: 25px;
+  border-style: none;
+  margin-top: 20px;
+  padding: 8px 22px 8px 22px;
+  cursor: pointer;
+}
+.stretch-button {
+  transition: padding 0.5s;
+}
+.stretch-button:hover {
+  padding: 16px 44px 16px 44px;
+}
+.shadow-button {
+  box-shadow: 5px 5px 2px lightgrey;
+  margin-bottom: 10px;
+}
+.shadow-button:active {
+  box-shadow: none ;  
+}
+
+.one-button,
+.two-button,
+.three-button {
+margin: 10px;
+transition: padding 0.5s, margin 0.5s;
+}
+
+.one-button:hover,
+.two-button:hover,
+.three-button:hover {
+  padding: 8px 30px 8px 30px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
