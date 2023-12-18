@@ -56,11 +56,11 @@ body {
   border-style: none;
   border-radius: 40px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding-left: 15px;
 
 }
 .search::placeholder{
   color: rgb(93, 93, 93);
-  padding-left: 15px;
 }
 
 .google-search {
