@@ -1,0 +1,85 @@
+.first-name,
+.last-name,
+.email {
+  padding-left: 15px;
+  margin-bottom: 15px;
+  height: 45px;
+  font-size: 20px;
+  border-style: solid;
+  border-color: rgb(187, 185, 185);
+  border-radius: 7px;
+}
+
+.first-name,
+.last-name{
+  width: 140px;
+  margin-top: 50px;
+}
+
+.email {
+  width: 304px;
+}
+
+.first-name::placeholder,
+.last-name::placeholder,
+.email::placeholder {
+  color: rgb(121, 120, 120);
+}
+
+.email,
+.sign-up {
+  display: block;
+}
+
+.sign-up{
+  height: 50px;
+  width: 322px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(10, 113, 248);
+  border-style: none;
+  border-radius: 7px;
+  margin-bottom: 100px;
+}
+
+.title {
+  font-size: 35px;
+  font-family: Arial;
+}
+
+.pickup-location,
+.destination {
+  display: block;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  font-size: 17px;
+  height: 50px;
+  width: 350px;
+  background-color: rgb(226, 226, 226);
+  border-style: none;
+}
+
+.pickup-location::placeholder,
+.destination::placeholder {
+  color: rgb(121, 120, 120);
+}
+
+.request,
+.schedule {
+  margin-top: 20px;
+  padding: 15px;
+  font-size: 17px;
+  border-style: none;
+}
+
+.request {
+  color: white;
+  background-color: black;
+  margin-right: 10px;
+}
+
+.schedule {
+  color: black;
+  background-color: rgb(226, 226, 226);
+}

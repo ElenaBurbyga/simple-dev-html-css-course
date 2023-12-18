@@ -1,0 +1,76 @@
+body {
+  font-family: Arial;
+}
+.profile {
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin-bottom: 100px;
+}
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.profile-info {
+  padding-left: 10px;
+}
+
+.name {
+  margin-top: 5px;
+  margin-bottom: 0px;
+
+  font-weight: bold;
+
+}
+.mutual-friends {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: gray;
+}
+.add-friend {
+  margin: 10px;
+  background-color: rgb(0, 119, 255);
+  color: white;
+  font-size: 15px;
+  border-style: none;
+  border-radius: 4px;
+  padding: 10px;
+
+}
+
+.google {
+  text-align: center;
+}
+
+.google-logo {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.search {
+  height: 45px;
+  width: 500px;
+  font-size: 17px;
+  border-style: none;
+  border-radius: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+}
+.search::placeholder{
+  color: rgb(93, 93, 93);
+  padding-left: 15px;
+}
+
+.google-search {
+  margin-top: 25px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: rgb(233, 233, 233);
+  border-style: none;
+}
+
+.google-search:nth-child(2){
+  margin-left: 10px;
+}
