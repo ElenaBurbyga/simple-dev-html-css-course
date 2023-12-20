@@ -1,0 +1,126 @@
+main p {
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  font-family: Arial;
+}
+
+.inbox {
+  font-size: 15px;
+  color: gray;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.messages-section {
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 7px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  width: 450px;
+  margin-bottom: 100px;
+}
+
+.main-messages-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px;
+}
+
+.message-flex {
+  margin: 15px;
+}
+
+.title-time-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.time {
+  color: gray
+}
+
+.topic {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.message {
+  color: gray;
+}
+
+.profile-picture {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.main-tweet-container {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 510px;
+  /* border: solid black; */
+}
+.main-tweet-container p {
+  font-size: 20px;
+}
+
+.profile-picture-tw {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.account-name {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-weight: 500;
+  color: grey;
+}
+
+.youtube-section {
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 15px;
+  margin-top: 20px;
+
+}
+
+.youtube-link {
+  color: rgb(95, 94, 94);
+  margin-bottom: 7px;
+}
+
+.video-description {
+  line-height: 25px;
+}
+
+.thumbnail-column {
+  height: 133px;
+  width: 200px;
+  background-color: rgb(220, 220, 220);
+  margin-right: 10px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
