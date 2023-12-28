@@ -1,0 +1,42 @@
+body {
+  font-family: Arial;
+}
+
+.catana-div {
+  border-style: solid;
+  width: 400px;
+  position: relative;
+  display: inline-block;
+}
+
+.catana-image {
+  height: 400px;
+}
+
+.discount {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.add-to-cart-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(211, 211, 211, 0.3);
+  padding: 30px;
+}
+
+.add-to-cart {
+  background-color: white;
+  padding: 10px 15px;
+  border-color: black;
+  font-weight: 700;
+}
